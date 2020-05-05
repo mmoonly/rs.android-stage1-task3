@@ -14,7 +14,7 @@ class Combinator {
         val b = array[1]
 
         for(x in 0..b){
-            if(factorial(x)*factorial(n-x) == factorial(b)/a)
+            if(factorial(x)*factorial(b-x) == factorial(b)/a)
                 return x
         }
         return null

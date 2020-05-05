@@ -4,7 +4,7 @@ import java.lang.StringBuilder
 
 class PolynomialConverter {
 
-    fun converфtToStringFrom(numbers: Array<Int>): String? {
+    fun convertToStringFrom(numbers: Array<Int>): String? {
         if(numbers.isNullOrEmpty()) return null
         val result = StringBuilder()
         for(i in numbers.indices){
